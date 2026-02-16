@@ -13,7 +13,7 @@ from livekit.plugins import (
 from Jarvis_prompts import behavior_prompts, Reply_prompts
 
 from Jarvis_search import google_search, get_current_datetime
-from jarvis_memory_store import load_memory, save_memory, get_recent_conversations, add_memory_entry
+from memory_store import load_memory, save_memory, get_recent_conversations, add_memory_entry
 
 from jarvis_get_whether import get_weather
 from Jarvis_window_CTRL import open, close, folder_file
